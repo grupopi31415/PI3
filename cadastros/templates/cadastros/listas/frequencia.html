@@ -1,0 +1,28 @@
+{% extends 'paginas/modelo-ifpr.html' %}
+
+{% load static %}
+
+{% block conteudo %}
+<h3>
+    Lista de classes - frequência
+</h3>
+                            <h5>Ensino Fundamental</h5>
+                            <ul class="list-unstyled">
+                            <li><a href="{% url 'listar-lancar_freq_6a' %}" class="text">6º ano A</a></li>
+                            <li><a href="#" class="text">7º ano A</a></li>
+                            <li><a href="#" class="text">8º ano A</a></li>
+                            <li><a href="#" class="text">9º ano A</a></li>
+                            </ul>
+
+                            <h5>Ensino Médio</h5>
+                            <ul class="list-unstyled">
+                            <li><a href="#" class="text">1ª série A</a></li>
+                            <li><a href="#" class="text">1ª série B</a></li>
+                            <li><a href="#" class="text">1ª série C</a></li>
+                            <li><a href="#" class="text">2ª série A</a></li>
+                            <li><a href="#" class="text">2ª série B</a></li>
+                            <li><a href="#" class="text">3ª série A</a></li>
+                            </ul>
+
+
+{% endblock %}

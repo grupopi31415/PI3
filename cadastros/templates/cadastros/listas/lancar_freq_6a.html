@@ -1,0 +1,94 @@
+{% extends 'paginas/modelo-ifpr.html' %}
+
+{% load static %}
+
+{% block conteudo %}
+
+<h1>Lançamento Frequência </h1><br><br>
+<a href="{% url 'listar-frequencia' %}" class="btn btn-primary btn-sm float-right">Salvar</a>
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <p> 6º ANO A - EF - ANOS FINAIS</p>
+    </div>
+
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <p> DATA: 28/11/2022</p>
+    </div>
+
+
+    <div class="col-8 m-auto text-center">
+
+        <table class="table table-striped table-responsive">
+            <thead>
+                <tr>
+                  <th scope="col">Nº Chamada</th>
+                  <th scope="col">Nome do Aluno</th>
+                  <th scope="col">Frequência</th>
+                </tr>
+              </thead>
+              <tbody>
+            <tr>
+                <th>1</th>
+                <th>Antonio Silva</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Bruna Ferreira</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Carla Batista</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Cristiano Alves</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th>Davi Lucas Dias</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th>Eduardo Rodrigues</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>Fernando Silva Santos</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>8</th>
+                <th>Maria Clara Cardoso</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>9</th>
+                <th>Natan Silva Lemos</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+            <tr>
+                <th>10</th>
+                <th>Willian Ferreira Santos</th>
+                <th><input type="checkbox" name="webmaster" value="P"/> P<br />
+                    <input type="checkbox" name="webmaster" value="F"/> F<br /></th>
+            </tr>
+
+        </tbody>
+        </table>
+    </div>
+
+{% endblock %}
